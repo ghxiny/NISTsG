@@ -1,0 +1,15 @@
+due to the difficulty of calc scattering matrix near z=0 we deform away from z=0 using a diamond of radius 1. 
+Not working since this lensing requires an analytic solution inside the diamond
+
+try if this is spectrally accurate up to machine epsilon first. think about how to deal with the poles later
+
+
+this code uses the transformed odes for scattering (zero gauge)
+
+
+things to do (truncation?)
+things to do (error up to machine epsilon compared with i.v)
+things to do (error compared with non deformation)
+
+
+transformation doesn't improve?
